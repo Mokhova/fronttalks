@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Proxima Nova';
+}
+
+body {
+  background: url(ekb-photo.png) no-repeat;
+  background-size: 100vw;
+}
+
+.main {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.about {
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+}
+
+.logo-wrapper {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+
+}
+
+.date {
+  font-size: 100px;
+  color: #fff;
+  font-family: 'ProximaNovaCond-Bold';
+  text-align: center;
+  margin-top: 60px;
+  opacity: 0.9;
+}
+
+.month {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  font-family: 'ProximaNova-Bold';
+  margin-top: -18px;
+}
+
+.place {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  font-family: 'ProximaNovaCond-Bold';
+  margin-top: 10px;
+}
+
+.buy-ticket {
+  width: 400px;
+  height: 80px;
+  background-color: #00B455;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'ProximaNova-Bold';
+  letter-spacing: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 4px 0px #008A45;
+  z-index: 1;
+  transition: ease-in 0.1s;
+}
+
+.buy-ticket:hover {
+  bottom: 6px;
+  box-shadow: 0px 6px 0px #008A45;
+}
+
+.content {
+  width: 1000px;
+  background-color: #fff;
+  opacity: 0.9;
+  position: absolute;
+  right: 0;
+}
+
+.programm {
+  margin: 40px 0px 0px 50px;
+  right: 0;
+}
+
+.panel {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  background-color: #1a1a1a;
+  opacity: 0.9;
+  width: 1400px;
+  height: 84px;
+}
+
+.menu {
+  width: 1000px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-item {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
