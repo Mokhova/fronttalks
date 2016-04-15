@@ -18,7 +18,7 @@
   font-family: 'ProximaNova-Bold';
   letter-spacing: 1.5px;
   text-align: center;
-  transition: ease-in 0.1s;
+  transition: 0.5s 0s cubic-bezier(.25, .1, .25, 1);
 }
 
 .buy-ticket:hover {
@@ -31,16 +31,17 @@
 }
 
 .buy-ticket-icon {
-  width: 32px;
-  height: 32px;
-  background-image: url(ruble.svg);
-  background-size: 32px;
+  width: 45px;
+  height: 29px;
+  background: url(pass.svg) no-repeat;
+  background-size: 46px;
   display: inline-block;
   position: absolute;
-  left: -35px;
+  top: 25px;
+  left: -45px;
   transition: left 0.5s 0s cubic-bezier(.25, .1, .25, 1);
 }
 
 .buy-ticket:hover .buy-ticket-icon {
-  left: 50px;
+  left: 40px;
 }
