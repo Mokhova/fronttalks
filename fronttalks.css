@@ -61,41 +61,6 @@ body {
   margin-top: 10px;
 }
 
-.buy-ticket {
-  width: 400px;
-  height: 80px;
-  background-color: #00B455;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  border: 0;
-  vertical-align: middle;
-  z-index: 1;
-  transition: ease-in 0.1s;
-}
-
-.buy-ticket-text {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 28px;
-  font-family: 'ProximaNova-Bold';
-  letter-spacing: 1.5px;
-  text-align: center;
-  transition: ease-in 0.1s;
-}
-
-.buy-ticket:hover {
-  background-color: #008A45;
-  cursor: pointer;
-}
-
-.buy-ticket:hover .buy-ticket-text {
-  margin-left: 20px;
-}
-
-.buy-ticket-icon {
-  
-}
 
 .content {
   width: 1000px;
