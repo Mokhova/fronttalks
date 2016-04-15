@@ -120,6 +120,7 @@ body {
 .menu-item {
   display: inline-block;
   list-style-type: none;
+  letter-spacing: 2px;
   font-size: 20px;
   color: #fff;
   text-transform: uppercase;
