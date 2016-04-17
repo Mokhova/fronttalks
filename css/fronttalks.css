@@ -6,7 +6,7 @@
 
 body {
   background: url(/github/fronttalks/img/ekb-photo.png) no-repeat;
-  background-size: 100vw;
+  height: 100vh;
 }
 
 .main {
