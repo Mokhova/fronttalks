@@ -35,7 +35,7 @@ body {
 .date {
   font-size: 100px;
   color: #fff;
-  font-family: 'ProximaNovaCond-Bold';
+  font-family: 'HelveticaNeue-CondensedBold';
   text-align: center;
   margin-top: 60px;
   opacity: 0.9;
@@ -47,7 +47,7 @@ body {
   color: #fff;
   opacity: 0.9;
   text-align: center;
-  font-family: 'ProximaNova-Bold';
+  font-family: 'HelveticaNeue-CondensedBold';
   margin-top: -18px;
 }
 
@@ -57,7 +57,7 @@ body {
   color: #fff;
   opacity: 0.9;
   text-align: center;
-  font-family: 'ProximaNovaCond-Bold';
+  font-family: 'HelveticaNeue-CondensedBold';
   margin-top: 10px;
 }
 
