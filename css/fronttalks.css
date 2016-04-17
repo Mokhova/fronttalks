@@ -28,10 +28,6 @@ body {
   justify-content: center;
 }
 
-.logo {
-
-}
-
 .date {
   font-size: 100px;
   color: #fff;
@@ -68,6 +64,7 @@ body {
   opacity: 0.9;
   position: absolute;
   right: 0;
+  height: 100vh;
 }
 
 .programm {

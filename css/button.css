@@ -33,7 +33,7 @@
 .buy-ticket-icon {
   width: 45px;
   height: 29px;
-  background: url(img/pass.svg) no-repeat;
+  background: url(/github/fronttalks/img/pass.svg) no-repeat;
   background-size: 46px;
   display: inline-block;
   position: absolute;
