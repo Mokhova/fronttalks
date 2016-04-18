@@ -127,3 +127,14 @@ html {
   display: block;
   text-align: center;
 }
+
+.footer-link::after {
+  content: '\E058';
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Kontur-Iconic';
+  position: absolute;
+  top: 23px;
+  left: 0;
+  right: 0;
+}
