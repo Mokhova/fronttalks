@@ -114,8 +114,8 @@ html {
 }
 
 .footer {
-  position: fixed;
-  bottom: 5vh;
+  position: relative;
+  top: 60px;
   width: 400px;
 
 }
@@ -137,4 +137,18 @@ html {
   top: 23px;
   left: 0;
   right: 0;
+}
+
+
+.speakers {
+  width: 100vw;
+  background: url(../img/stars.png) no-repeat;
+  height: 670px;
+}
+
+.speakers-img {
+  margin: 0px auto;
+  width: 780px;
+  display: block;
+  padding-top: 70px;
 }
