@@ -33,7 +33,7 @@ html {
   font-size: 100px;
   color: #fff;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
   opacity: 0.9;
   font-family: inherit;
 }
@@ -116,6 +116,7 @@ html {
 .footer {
   position: fixed;
   bottom: 50px;
+  width: 400px;
 
 }
 
@@ -124,4 +125,5 @@ html {
   font-size: 22px;
   text-decoration: none;
   display: block;
+  text-align: center;
 }
