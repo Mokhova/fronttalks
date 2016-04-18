@@ -22,7 +22,7 @@
 }
 
 .buy-ticket:hover {
-  background-color: #008A45;
+  background-color: #00A458;
   cursor: pointer;
 }
 
@@ -46,4 +46,9 @@
 .buy-ticket:hover .buy-ticket-icon {
   left: 40px;
   opacity: 1;
+}
+
+.splash {
+  margin-top: 44px;
+  position: inherit;
 }

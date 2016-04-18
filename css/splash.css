@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Proxima Nova';
+}
+
+html {
+  background: url(../img/ekb-photo.png) no-repeat;
+  height: 100vh;
+}
+
+.main {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.about {
+  width: 400px;
+  height: 100vh;
+  font-family: 'Gagalin';
+  margin: 0 auto;
+}
+
+.logo-wrapper {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.date {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  opacity: 0.9;
+  font-family: inherit;
+}
+
+.month {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: -12px;
+  margin-left: -10px;
+  font-family: inherit;
+}
+
+.place {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-left: -8px;
+  margin-top: 2px;
+  font-family: inherit;
+}
+
+
+.content {
+  width: 1000px;
+  background-color: #fff;
+  opacity: 0.9;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+}
+
+.programm {
+  margin: 50 auto;
+  display: block;
+}
+
+.panel {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  background-color: #1a1a1a;
+  opacity: 0.9;
+  width: 1400px;
+  height: 80px;
+}
+
+.menu {
+  width: 1000px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-item {
+  display: inline-block;
+  list-style-type: none;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+.tickets-left {
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 50px;
+
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+}
