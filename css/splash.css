@@ -115,7 +115,7 @@ html {
 
 .footer {
   position: fixed;
-  bottom: 50px;
+  bottom: 5vh;
   width: 400px;
 
 }
