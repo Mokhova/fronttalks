@@ -3,6 +3,7 @@
   margin: 0;
   font-family: 'Proxima Nova';
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 body {
   width: 100vw;
