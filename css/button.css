@@ -50,6 +50,7 @@
 .buy-ticket:hover .buy-ticket-icon {
   left: -10px;
   opacity: 1;
+  transition: position 0.5s 0s ease-out;
 }
 
 .splash {
