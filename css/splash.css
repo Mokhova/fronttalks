@@ -3,30 +3,29 @@
   margin: 0;
   font-family: 'Proxima Nova';
 }
-
-html {
-  background: url(../img/ekb-photo.png) no-repeat;
+body {
+  width: 100vw;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.main {
-  max-width: 1400px;
-  margin: 0 auto;
-  height: 90vh;
-  position: relative;
+.main-slide {
+  background: url(../img/ekb-photo.png) no-repeat;
+  height: 100vh;
+  padding: 90px;
+  min-height: 960px;
 }
 
 .about {
   width: 400px;
-  height: 100vh;
   font-family: 'Gagalin';
   margin: 0 auto;
 }
 
 .logo-wrapper {
-  margin-top: 100px;
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 .date {
@@ -150,7 +149,7 @@ html {
 .speakers {
   width: 100vw;
   background: url(../img/stars.png) no-repeat;
-  height: 670vh;
+  height: 100vh;
 }
 
 .speakers-img {
