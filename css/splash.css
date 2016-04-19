@@ -150,6 +150,7 @@ body {
   width: 100vw;
   background: url(../img/stars.png) no-repeat;
   height: 100vh;
+  background-size: cover; 
 }
 
 .speakers-img {
