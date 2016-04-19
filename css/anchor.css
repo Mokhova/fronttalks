@@ -1,0 +1,40 @@
+.anchor {
+  position: relative;
+  top: 60px;
+  width: 400px;
+
+}
+
+.anchor-link {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.anchor-link:hover::after {
+  animation: 1.4s linear infinite;
+  animation-name: floating;
+}
+
+
+.anchor-link::after {
+  content: '\E058';
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Kontur-Iconic';
+  position: absolute;
+  top: 21px;
+  left: 0;
+  right: 0;
+}
+
+@keyframes floating {
+    0%, 100% {
+        top: 21px;
+    }
+    50% {
+        top: 25px;
+    }
+}

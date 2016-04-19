@@ -1,0 +1,13 @@
+.speakers {
+  width: 100vw;
+  background: url(../img/stars.png) no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.speakers-img {
+  margin: 0px auto;
+  width: 780px;
+  display: block;
+  padding-top: 70px;
+}

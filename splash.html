@@ -6,10 +6,13 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/splash.css">
+  <link rel="stylesheet" href="css/speakers.css">
+  <link rel="stylesheet" href="css/anchor.css">
 </head>
 <body>
   <div class="main-slide">
     <section class="about">
+
       <div class="logo-wrapper">
         <img src="img/logo.png" alt="logo-fronttalks" class="logo">
       </div>
@@ -19,17 +22,24 @@
       <div class="place">екатеринбург</div>
 
       <button type="button" name="button" class="buy-ticket splash">
-        <span class="buy-ticket-text">Купить билет</span>
+        <a class="buy-ticket-text">
+          <span class="buy-ticket-icon"></span>
+          Купить билет
+        </a>
       </button>
-      <div class="tickets-left">Осталось 42 билета</div>
-      <div class="footer">
-        <a href="#speakers" class="footer-link">Есть доклад?</a>
-      </div>
-    </section>
 
+      <div class="tickets-left">Осталось 42 билета</div>
+
+      <div class="anchor">
+        <a href="#speakers" class="anchor-link">Есть доклад?</a>
+      </div>
+
+    </section>
   </div>
+
   <div class="speakers">
     <img src="img/speakers-1.png" alt="speakers" class="speakers-img" id="speakers">
   </div>
+
 </body>
 </html>
