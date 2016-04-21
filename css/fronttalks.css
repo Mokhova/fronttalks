@@ -21,7 +21,7 @@ html {
 .about {
   width: 400px;
   height: 100vh;
-  position: absolute;
+  float: left;
   font-family: 'Gagalin';
 }
 
@@ -68,7 +68,7 @@ html {
   width: 1000px;
   background-color: #fff;
   opacity: 0.9;
-  position: absolute;
+  float: right;
   right: 0;
   height: 100vh;
 }
@@ -85,7 +85,8 @@ html {
   bottom: 0;
   background-color: #1a1a1a;
   opacity: 0.9;
-  width: 1400px;
+  width: 100%;
+  left: 0;
   height: 80px;
 }
 
