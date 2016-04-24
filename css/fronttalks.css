@@ -66,7 +66,6 @@ html {
 
 .content {
   width: 1000px;
-  background-color: #fff;
   opacity: 0.9;
   float: right;
   right: 0;
@@ -77,6 +76,8 @@ html {
   margin: 50 auto;
   display: block;
   padding: 50px 100px;
+  background-color: #fff;
+  margin: 0;
 }
 
 .panel {
@@ -105,4 +106,9 @@ html {
   font-size: 20px;
   color: #fff;
   text-transform: uppercase;
+}
+
+.menu-item-link {
+  text-decoration: none;
+  color: #fff;
 }

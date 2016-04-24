@@ -2,8 +2,7 @@
   width: 400px;
   height: 80px;
   background-color: #00B455;
-  position: absolute;
-  left: 0;
+  position: fixed;
   bottom: 0;
   border: 0;
   vertical-align: middle;
@@ -30,7 +29,7 @@
 }
 
 .buy-ticket:hover .buy-ticket-text {
-  margin-left: 10px;
+  margin-left: 60px;
 }
 
 .buy-ticket-icon {
@@ -39,8 +38,8 @@
   background: url(../img/pass.png) no-repeat;
   display: inline-block;
   background-size: 46px;
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 20px;
   left: -45px;
   float: left;
   opacity: 0;
@@ -48,7 +47,7 @@
 }
 
 .buy-ticket:hover .buy-ticket-icon {
-  left: -10px;
+  left: 37px;
   opacity: 1;
   transition: opacity 0.1s 0.2s ease-out, left 0.3s 0.1s ease-out;
 }

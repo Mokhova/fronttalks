@@ -103,8 +103,8 @@ body {
   font-size: 20px;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }
-
 
 .tickets-left {
   font-size: 22px;
